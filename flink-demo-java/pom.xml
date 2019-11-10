@@ -13,6 +13,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.wen.flink</groupId>
+            <artifactId>flink-demo-domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-elasticsearch6_2.11</artifactId>
             <version>${flink.version}</version>

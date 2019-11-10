@@ -9,13 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>flink-demo-scala</artifactId>
+    <artifactId>flink-demo-domain</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.wen.flink</groupId>
-            <artifactId>flink-demo-domain</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+
 </project>
