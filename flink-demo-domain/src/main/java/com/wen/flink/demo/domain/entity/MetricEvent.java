@@ -1,4 +1,4 @@
-package com.wen.flink.java.demo.entity;
+package com.wen.flink.demo.domain.entity;
 
 
 import java.util.Map;

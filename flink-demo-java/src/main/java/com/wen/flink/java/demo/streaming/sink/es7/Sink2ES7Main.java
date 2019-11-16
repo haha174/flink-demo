@@ -1,7 +1,7 @@
 package com.wen.flink.java.demo.streaming.sink.es7;
 
 
-import com.wen.flink.java.demo.entity.MetricEvent;
+import com.wen.flink.demo.domain.entity.MetricEvent;
 import com.wen.tools.json.util.JsonObject;
 import com.wen.tools.log.utils.LogUtil;
 import org.apache.flink.api.common.functions.MapFunction;

@@ -21,8 +21,6 @@ object DataSourceApi {
     //case class MyCaseClass(id:Int,name:String,age:Int)
     //env.readCsvFile[MyCaseClass](filePath=filePath,ignoreFirstLine = true,includedFields = Array(1,2,3)).print()
     env.readCsvFile[Student](filePath, ignoreFirstLine = true,pojoFields = Array("id","name","age")).print()
-
-
   }
 
   def main(args: Array[String]): Unit = {
